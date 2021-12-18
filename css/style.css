@@ -14,15 +14,14 @@ body{
 
 }
 header{
-	margin-bottom: 100px;
+	margin-bottom: 60px;
 	
 }
 
 .logo{
 	background-image: url(../images/Avtar.png);
-    min-height: 100px;
-    min-width: 230px;
-    background-position: center;
+	min-height: 52px;
+    min-width: 115px;
 	background-size: cover;
 
 }
@@ -97,48 +96,6 @@ header h1:hover{
 	position: relative;
 	right: 20px;
 	
-}
-
-.textContainer p:nth-child(1){
-	font-family: Verdana, Geneva, Tahoma, sans-serif;
-	font-weight: bold;
-	color: #6d6d6d;
-	font-size: 22px;
-}
-
-.textContainer p:nth-child(2){
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-weight: bold;
-	letter-spacing: 1px;
-	color: #1a1a1a;
-	font-size: 60px;
-}
-
-.textContainer p{
-	line-height: 0px;
-	margin: 45px 0px 25px;
-}
-.textContainer {
-	/* position: absolute; */
-	left: 10%;
-	top: 20%;
-	transform: translate(-13%,-42%);
-	/* box-shadow: 3px 3px 20px #3b3b3b; */
-	/* border: 0.1px solid black; */
-	/* border-radius: 10px; */
-	padding: 10px;
-	
-}
-
-.textContainer button{
-	width: 130px;
-	height: 42px;
-	border-radius: 10px;
-	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-	font-weight: bold;
-	font-size: 14px;
-	outline: none;
-	margin: 25px 0px;
 }
 .mainFooter {
 	/* position: absolute; */
