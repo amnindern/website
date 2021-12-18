@@ -78,6 +78,7 @@ header h1:hover{
     text-decoration: none;
 	text-shadow: 1px 1px black;
 	font-weight: bold;
+	font-size: 1rem;
 }
 
 .navButtonContainer a:hover{
@@ -184,6 +185,7 @@ header h1:hover{
 
 .content
 {
+	padding-top: 25px;
 	display: grid;
 	/* width: 59em;
 	height: 25em; */
@@ -263,6 +265,10 @@ header h1:hover{
 	}
 }
 @media (max-width:600px){
+
+	.body{
+		font-size: 8px;
+	}
 	.content{
 	display: flex;
 	flex-direction: column;
