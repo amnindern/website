@@ -151,7 +151,6 @@ header h1:hover{
 #footerText{
 	margin-left: 15px;
 }
-
 .topPortionContainer{
 	/* position: relative; */
 	gap: 0px;
@@ -237,7 +236,7 @@ header h1:hover{
 }
 .profileList{
 	grid-area: social;
-	padding-left: 10.7rem;
+	padding-left: 1px;
 }
 
 
