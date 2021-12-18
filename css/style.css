@@ -228,8 +228,8 @@ header h1:hover{
 .content
 {
 	display: grid;
-	width: 59em;
-	height: 25em;
+	/* width: 59em;
+	height: 25em; */
 	justify-content: end;
 	align-content: center;
 	grid-template-columns: 1fr;
@@ -317,27 +317,42 @@ header h1:hover{
 	justify-content: end; */
 	
 	}
+	header{
+		margin-bottom: 50px;
+		
+	}
+	.logo{
+		display: none;
+	}
+	header h1{
+		font-size: 1rem;
+	}
 
 	.profileList{
+		flex: 3 0px;
 		order: 3;
 		flex-shrink: 3;
 		align-self: flex-end;
+		padding: 0px 132px;
 	}
 	.profileName{
 		order:1;
 		flex-shrink: 3;
 		align-self: flex-end;
-		font-size: 40px;
+		font-size: 2.5rem;
+		padding: 0px 60px;
 	}
 	.profileImg{
 		order: 2;
 		flex-shrink: 3;
 		align-self: flex-end;
+		padding: 0px 135px;
 	}
 	.profileInfo{
 		order:4;
 		flex-grow: 0px 3;
 		align-self: flex-end;
+		max-width: 342px;
 	}
 
 	/* hello git test */
