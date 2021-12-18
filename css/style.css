@@ -192,8 +192,6 @@ header h1:hover{
 	justify-content: end;
 	align-content: center;
 	grid-template-columns: 1fr;
-	grid-column-gap: 1em;
-	grid-row-gap: 5px;
 	grid-template-areas: 
 	"name" 
 	"image"
@@ -240,9 +238,20 @@ header h1:hover{
 
 
 @media (max-width:960px){
+	.topPortion{
+		position: absolute;
+		right: -20px;
+		width : 100vw;
+		/* border: 1px solid black; */
+		;
+	}
+	.profileName{
+		font-size: 2.5rem;
+	}
 	.content{
-	grid-template-columns: min(90%,25rem) min(90%,25rem) ;
+	grid-template-columns: repeat(auto-fill, minmax(317px, 1fr));
 	justify-content: center;
+	margin: 20px;
 	grid-template-areas: 
 	"name" "social"
 	"position" "social"
@@ -253,6 +262,9 @@ header h1:hover{
 	justify-content: end; */
 	
 	}
+	.topPortionCircle{
+		display: none;
+	}
 
 	.profileList{
 		grid-area: 2/2 ;
@@ -261,13 +273,19 @@ header h1:hover{
 		align-self: center;
 	}
 	.profileInfo{
-		grid-column: 1/-1;
+		grid-column: 1/3;
 	}
 }
 @media (max-width:600px){
 
 	.body{
 		font-size: 8px;
+	}
+	.topPortion{
+		right: -20px;
+		width : 100vw;
+		/* border: 1px solid black; */
+		;
 	}
 	.content{
 	display: flex;
@@ -292,29 +310,26 @@ header h1:hover{
 	}
 
 	.profileList{
-		flex: 3 0px;
 		order: 3;
-		flex-shrink: 3;
-		align-self: flex-end;
-		padding: 0px 132px;
+		align-self: center;
+		padding-left: 0.8rem;
+		/* padding: 0px 132px; */
 	}
 	.profileName{
 		order:1;
-		flex-shrink: 3;
-		align-self: flex-end;
-		font-size: 2.5rem;
-		padding: 0px 60px;
+		align-self: center;
+		font-size: 2rem;
+		/* padding: 0px 60px; */
 	}
 	.profileImg{
 		order: 2;
 		flex-shrink: 3;
-		align-self: flex-end;
-		padding: 0px 135px;
+		align-self: center;
+		padding-left: 0rem;
 	}
 	.profileInfo{
 		order:4;
-		flex-grow: 0px 3;
-		align-self: flex-end;
+		align-self: center;
 		max-width: 342px;
 	}
 
