@@ -312,6 +312,10 @@ header h1:hover{
 		font-size: 1rem;
 	}
 
+	.socialMedia{
+		margin-left: -15px;
+	}
+
 	.profileList{
 		order: 3;
 		align-self: center;
