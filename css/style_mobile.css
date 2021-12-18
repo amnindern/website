@@ -1,0 +1,16 @@
+.content{
+	display: grid;
+	width: 900px;
+	height: 400px;
+	justify-content: end;
+	align-content: center;
+	grid-template-columns: 1fr 1fr;
+	grid-column-gap: 1em;
+	grid-row-gap: 5px;
+	grid-template-areas: 
+	"name" 
+	"image"
+	"social"
+	"position"
+	"description";
+	}
