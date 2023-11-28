@@ -217,7 +217,8 @@ header h1:hover{
 }
 .profileInfo{
 	grid-area: description;
-	font-size: 1rem;
+	font-size: 5rem;
+	font-weight: bold;
 }
 .profileImg{
 	padding-left: 198px;;
